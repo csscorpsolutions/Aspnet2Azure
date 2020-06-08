@@ -72,7 +72,6 @@ D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\bin\System.Web.WebPages.Razor.xml
 D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\bin\Newtonsoft.Json.xml
 D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\bin\Antlr3.Runtime.pdb
 D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\obj\Debug\Aspnet2Azure.csprojAssemblyReference.cache
 D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\obj\Debug\Aspnet2Azure.csproj.CoreCompileInputs.cache
 D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\obj\Debug\Aspnet2Azure.csproj.CopyComplete
 D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\obj\Debug\Aspnet2Azure.dll
