@@ -18,5 +18,10 @@ namespace Aspnet2Azure.Controllers
         {
             return View();
         }
+
+        public ActionResult HandSanitizerNavigation()
+        {
+            return View();
+        }
     }
 }

@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" class="" data-triggered="true">
+<html>
 <head class="at-element-marker">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="market" content="in">
@@ -21,101 +21,106 @@
     <meta name="twitter:title" content="Hand Sanitizer">
     <meta name="twitter:description" content="Hand Sanitizer">
     <link rel="canonical" href="https://www.lifebuoy.in/products/sanitizer/hand-sanitizer.html">
-    <title>Hand Sanitizer</title>    
-    <link href="~/Content/design.grid-960-12.grid.v3-0-80.css" rel="stylesheet" />
+    <title>Hand Sanitizer</title>
+    <link rel="stylesheet" href="~/Content/design.grid-960-12.grid.v3-0-80.css">
     <link rel="shortcut icon" href="https://www.lifebuoy.in/sk-eu/content/dam/brands/lifebuoy/favicon.ico" type="image/vnd.microsoft.icon">
     <meta name="format-detection" content="telephone=no">
     <script>
-        WebFontConfig = {
-            typekit: {
-                id: 'bpn5hkw'
-            },
-            active: function () {
-                sessionStorage.fonts = true;
-            },
-            loadStrategy: {
-                desktop: 4,
-                mobile: 4
-            }
-        };
-        (function (d) {
-            var wf = d.createElement('script');
-            var ls;
-            var lsType = "desktop";
-            var connection = navigator.connection;
-            var slow;
+         WebFontConfig = {
+         	typekit: {
+         		id: 'bpn5hkw'
+         	},
+         	active: function() {
+         		sessionStorage.fonts = true;
+         	},
+         	loadStrategy: {
+         		desktop: 4,
+         		mobile: 4
+         	}
+         };
+         (function(d) {
+         	var wf = d.createElement('script');
+         	var ls;
+         	var lsType = "desktop";
+         	var connection = navigator.connection;
+         	var slow;
 
-            if (connection && connection.effectiveType) {
-                slow = parseInt(connection.effectiveType.match(/\d+/), 10) < 4;
-                if (slow) {
-                    lsType = "mobile";
-                }
-            }
+         	if (connection && connection.effectiveType) {
+         		slow = parseInt(connection.effectiveType.match(/\d+/), 10) < 4;
+         		if (slow) {
+         			lsType = "mobile";
+         		}
+         	}
 
-            ls = WebFontConfig.loadStrategy[lsType];
+         	ls = WebFontConfig.loadStrategy[lsType];
 
-            function initFonts() {
-                var s = d.scripts[0];
-                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-                s.parentNode.insertBefore(wf, s);
+         	function initFonts() {
+         		var s = d.scripts[0];
+         		wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+         		s.parentNode.insertBefore(wf, s);
 
-                if (sessionStorage.fonts) {
-                    document.documentElement.classList.add('wf-active');
-                }
-            }
+         		if (sessionStorage.fonts) {
+         			document.documentElement.classList.add('wf-active');
+         		}
+         	}
 
-            if (ls === 2) {
-                wf.async = true;
-            } else if (ls === 3) {
-                wf.defer = true;
-            }
+         	if (ls === 2) {
+         		wf.async = true;
+         	} else if (ls === 3) {
+         		wf.defer = true;
+         	}
 
-            if (ls === 4) {
-                window.addEventListener("load", initFonts);
-            } else {
-                initFonts();
-            }
+         	if (ls === 4) {
+         		window.addEventListener("load", initFonts);
+         	} else {
+         		initFonts();
+         	}
 
-        })(document);
+         })(document);
     </script>
-    <meta name="olapic-checkout-analytics-data" content="olapic-checkout-analytics-data" data-social-aggregation-provider="Olapic" data-olapic-api-key="c3501ecd2d622350f75fa9037afd9adcc22e08f68e6572c0ab71e3ebd1e0e7f4" data-shoppable-auth-token="n14tzl1DlIJ6a8PFbdb85107980a70da">
+    <meta name="olapic-checkout-analytics-data" content="olapic-checkout-analytics-data" 
+          data-social-aggregation-provider="Olapic" 
+          data-olapic-api-key="c3501ecd2d622350f75fa9037afd9adcc22e08f68e6572c0ab71e3ebd1e0e7f4" 
+          data-shoppable-auth-token="n14tzl1DlIJ6a8PFbdb85107980a70da">
     <script>
-        (function () {
-            var themeElement = document.getElementById("theme-css");
-            var headElement = document.getElementsByTagName("head")[0];
+         (function() {
+             var themeElement = document.getElementById("theme-css");
+             var headElement = document.getElementsByTagName("head")[0];
 
 
-            var lsType = "desktop";
-            var connection = navigator.connection;
+             var lsType = "desktop";
+             var connection = navigator.connection;
 
-            if (connection && connection.effectiveType) {
-                if (parseInt(connection.effectiveType.match(/\d+/), 10) < 4) {
-                    lsType = "mobile";
-                }
-            }
+             if (connection && connection.effectiveType) {
+                 if (parseInt(connection.effectiveType.match(/\d+/), 10) < 4) {
+                     lsType = "mobile";
+                 }
+             }
 
-            function enableCss() {
-                if (themeElement) {
-                    var linkTag = themeElement.innerText.trim();
-                    headElement.insertAdjacentHTML('beforeend', linkTag);
-                }
-            }
+             function enableCss() {
+                 if (themeElement) {
+                     var linkTag = themeElement.innerText.trim();
+                     headElement.insertAdjacentHTML('beforeend', linkTag );
+                 }
+             }
 
-            if (lsType === "desktop") {
+             if (lsType === "desktop") {
 
-                enableCss();
+                         enableCss();
 
-            } else {
+             } else {
 
-                enableCss();
+                         enableCss();
 
-            }
-        })();
+             }
+         })();
     </script>
-    <link rel="stylesheet" type="text/css" href="~/Content//RR_widget.css">
-    
+    <link rel="stylesheet" type="text/css" href="~/Content/RR_widget.css">
+
 </head>
-<body class="page-products page-sanitizer page-hand-sanitizer layout-base template-product-detail-page grid-960-12 addedFooter" data-theme-path="/sk-eu/etc/designs/zg/lifebuoy/desktop" data-path-id="a334635199cbb7d116ab6aa9471ec170" itemscope="" itemtype="http://schema.org/Product" style="visibility: visible;" data-flk-success="atNodeInserted53">
+<body class="page-products page-sanitizer page-hand-sanitizer layout-base template-product-detail-page grid-960-12 addedFooter" 
+      data-theme-path="/sk-eu/etc/designs/zg/lifebuoy/desktop" data-path-id="a334635199cbb7d116ab6aa9471ec170" itemscope="" 
+      itemtype="http://schema.org/Product" style="visibility: visible;" data-flk-success="atNodeInserted53">
     <meta itemprop="name" content="Hand Sanitizer">
     <meta itemprop="image" content="https://www.lifebuoy.in/sk-eu/content/dam/brands/lifebuoy/product_category/1102172.png.rendition.380.380.png">
     <meta itemprop="description" content="Hand Sanitizer">
@@ -623,9 +628,7 @@
                                                         <div class="component-content clearfix">
                                                             <div class="imageGallery-view" data-height="800">
                                                                 <picture width="400" height="400">
-                                                                    <img data-src="~/Content/Images/1102172.png.rendition.1960.1960.png" class=" ls-is-cached lazyloaded" 
-                                                                         alt="B{StringArray@item0.altTextImages}" width="400" height="400" 
-                                                                         src="~/Content/Images/1102172.png.rendition.1960.1960.png">
+                                                                    <img data-src="~/Content/Images/1102172.png.rendition.1960.1960.png" class=" ls-is-cached lazyloaded" width="400" height="400" src="~/Content/Images/1102172.png.rendition.1960.1960.png">
                                                                 </picture>
                                                                 <button class="imageGallery-view-overlay" aria-hidden="true"></button>
                                                                 <button class="imageGallery-arrow imageGallery-arrow-left" aria-hidden="true"></button>
@@ -640,9 +643,7 @@
                                                                                     <!--[if IE 9]>
                                                                                     <video style="display: none;">
                                                                                        <![endif]-->
-                                                                                    <img data-src="/sk-eu/content/dam/brands/lifebuoy/product_category/1102172.png.rendition.1960.1960.png" 
-                                                                                         class="imageGallery-thumbnail-cover ls-is-cached lazyloaded" alt="B{StringArray@item0.altTextImages}" width="60" data-height="400" data-width="400" 
-                                                                                         src="~/Content/Images/1102172.png.rendition.1960.1960.png">
+                                                                                    <img data-src="/sk-eu/content/dam/brands/lifebuoy/product_category/1102172.png.rendition.1960.1960.png" class="imageGallery-thumbnail-cover ls-is-cached lazyloaded" alt="B{StringArray@item0.altTextImages}" width="60" data-height="400" data-width="400" src="~/Content/Images/1102172.png.rendition.1960.1960.png">
 
                                                                                 </picture>
                                                                             </a>
@@ -914,7 +915,7 @@
                                                                                                 <div class="analytics-image-tracking"></div>
                                                                                                 <a href="https://www.lifebuoy.in/products/sanitizer/hand-sanitizer-active-fresh.html">
                                                                                                     <picture>
-                                                                                                        <img data-src="~/Content/Images/114608.png.rendition.1960.1960.png" class=" lazyloaded" alt="alt text" src="~/Content/Images/1114608.png.rendition.1960.1960.png">
+                                                                                                        <img data-src="~/Content/Images/114608.png.rendition.1960.1960.png" class=" lazyloaded" alt="" src="~/Content/Images/1114608.png.rendition.1960.1960.png">
 
                                                                                                     </picture>
                                                                                                 </a>
@@ -962,6 +963,39 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="paragraphSystem listing-header">
+                                                        <div class="richText component section richtext richText-tertiary-header initialized" data-position="39">
+                                                            <div class="component-content">
+                                                                <div class="richText-content">
+                                                                    <h2 style="text-align: center;"></h2>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="listing-carousel" style="touch-action: none;">
+                                                        <div class="listing-items" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px); width: 825px;">
+                                                            <div class="image component section image-listing-carousel even last initialized" data-position="43">
+                                                                <div class="component-content left">
+                                                                    <!--<div class="headline_content_group no_logo" style="top: 37%; left: 0%; text-align: center;">
+
+                                                                        <h1 class="headline_content__headline light default essonnes_display_regular" style="  "><p>Matte Attitude</p></h1><div class="headline_content__sub_content">
+                                                                            <div class="headline_content__subtext body_copy light">
+                                                                                <div class="headline_content__subheader"><p>PURE COLOR ENVY MATTES</p></div>
+                                                                                      <div class="headline_content__subcopy"><p>VELVET. METALLIC.</p></div>
+                                                                              </div>
+                                                                            <div class="headline_content__bottom_content">
+                                                                                                </div>
+                                                                      </div>
+                                                                    </div>-->
+                                                                    <div class="analytics-image-tracking"></div>
+                                                                    <a href="#">
+                                                                        <img data-src="~/Content/Images/SE742_PC_MPP_Envy_Mattes_1366x500-1.png" class=" lazyloaded" alt="alt text" src="~/Content/Images/SE742_PC_MPP_Envy_Mattes_1366x500-1.png" style="height: 3451px; width:1050px">
+
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -972,5 +1006,6 @@
                     </div>
                 </div>
             </div>
+        </div>
 </body>
 </html>

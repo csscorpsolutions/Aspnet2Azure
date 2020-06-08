@@ -141,6 +141,7 @@
     <Content Include="Content\Images\Logo-Lifebuoy.png.rendition.1960.1960.png" />
     <Content Include="Content\Images\rating-highlight-small.png" />
     <Content Include="Content\Images\rating-small.png" />
+    <Content Include="Content\Images\SE742_PC_MPP_Envy_Mattes_1366x500-1.png" />
     <Content Include="Content\RR_widget.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -174,6 +175,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\lifebuoy\HandSanitizer.cshtml" />
+    <Content Include="Views\lifebuoy\HandSanitizerNavigation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
