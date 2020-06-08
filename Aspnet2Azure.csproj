@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\lifebuoyController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -131,6 +132,16 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\custom.css" />
+    <Content Include="Content\design.grid-960-12.grid.v3-0-80.css" />
+    <Content Include="Content\Images\1102172.png.rendition.1960.1960.png" />
+    <Content Include="Content\Images\1114600.png.rendition.1960.1960.png" />
+    <Content Include="Content\Images\1114604.png.rendition.1960.1960.png" />
+    <Content Include="Content\Images\1114608.png.rendition.1960.1960.png" />
+    <Content Include="Content\Images\Logo-Lifebuoy.png.rendition.1960.1960.png" />
+    <Content Include="Content\Images\rating-highlight-small.png" />
+    <Content Include="Content\Images\rating-small.png" />
+    <Content Include="Content\RR_widget.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -162,6 +173,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\lifebuoy\HandSanitizer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
