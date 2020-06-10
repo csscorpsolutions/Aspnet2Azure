@@ -23,5 +23,10 @@ namespace Aspnet2Azure.Controllers
         {
             return View();
         }
+
+        public ActionResult NightRepair()
+        {
+            return View();
+        }
     }
 }
