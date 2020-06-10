@@ -76,3 +76,4 @@ D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\obj\Debug\Aspnet2Azure.csproj.CoreCompileIn
 D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\obj\Debug\Aspnet2Azure.csproj.CopyComplete
 D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\obj\Debug\Aspnet2Azure.dll
 D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\obj\Debug\Aspnet2Azure.pdb
+D:\SVN\Web\Aspnet2Azure\Aspnet2Azure\obj\Debug\Aspnet2Azure.csprojAssemblyReference.cache
